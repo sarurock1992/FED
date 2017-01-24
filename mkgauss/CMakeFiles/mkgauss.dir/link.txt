@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/mkgauss.dir/mkgauss.cpp.o  -o mkgauss -rdynamic 

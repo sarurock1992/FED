@@ -1,0 +1,26 @@
+set datafile separator ','
+#set yrange [9.95:10.05]
+#set xrange [0.93:1.57]
+#set y2range [-1.5:1.5]
+
+
+#set xlabel " k "
+#set ylabel " Estimated Frequency[Hz] "
+#set y2label " target signal " 
+set nokey
+#plot "phi_phidd.dat" u 1:2 w steps lc rgb "forest-green" t " phi "
+plot "phi_phidd.dat" u 1:3 w steps lc rgb "forest-green" t " phidd "
+pause -1 "hit"
+
+set term png
+set output "phidd_.png"
+replot
+set term x11
+
+#set ter post enhanced "Times" 18
+#set terminal tgif
+#set output "signalcheck.obj"
+#replot 
+
+
+

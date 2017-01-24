@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ogatayuta/fed/OPSO/main.cpp
+opso.h
+/home/ogatayuta/fed/OPSO/opso.h
+
+/home/ogatayuta/fed/OPSO/opso.cpp
+opso.h
+/home/ogatayuta/fed/OPSO/opso.h
+
+/home/ogatayuta/fed/OPSO/opso.h
+math.h
+-
+iostream
+-
+sys/time.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+signal.h
+-
+memory.h
+-
+sys/file.h
+-
+

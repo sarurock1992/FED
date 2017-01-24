@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 2.8)
+project( sfe5 )
+
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}")
+
+find_package( OpenCV REQUIRED )
+find_package(GSL REQUIRED)
+
+include_directories(${GSL_INCLUDE_DIRS} ${GSLCBLAS_INCLUDE_DIRS})
+set(LIBS ${OpenCV_LIBS} ${LIBS} ${GSL_LIBRARIES} ${GSLCBLAS_LIBRARIES})
+
+ADD_DEFINITIONS(
+  -g
+  -O0
+  -Wall
+  -std=c++11
+)
+add_executable( sfe5 sfe5.cpp )
+target_link_libraries( sfe5 ${LIBS} )

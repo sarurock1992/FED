@@ -1,0 +1,319 @@
+This is e-pTeXk, Version 3.1415926-p3.1.11-100420 (utf8.euc) (Web2C 2009) (format=eplatex 2012.11.15)  22 JUL 2014 17:01
+entering extended mode
+ Source specials enabled.
+ %&-line parsing enabled.
+**sfe.tex
+(./sfe.tex
+pLaTeX2e <2006/11/10>+0 (based on LaTeX2e <2009/09/24> patch level 0)
+(./ieej.cls
+Document Class: ieej 2009/02/04 v2.7 for Transaction of IEEJ
+\@JQ=\dimen118
+\@Q=\dimen119
+\c@@paper=\count81
+LaTeX Font Info:    External font `min10 at9.6104pt' loaded for size
+(Font)              <10> on input line 408.
+\@authorlist=\toks15
+\@authorcnt=\count82
+\@alcnt=\count83
+\p@alcnt=\count84
+\@totalnumber=\count85
+\@tempboxb=\box41
+\@tempboxc=\box42
+\@tempboxd=\box43
+\chk@alcnt=\count86
+\chk@p@alcnt=\count87
+\@abstractbox=\box44
+\j@keywordbox=\box45
+\e@keywordbox=\box46
+\belowtitlesep=\dimen120
+\c@section=\count88
+\c@subsection=\count89
+\c@subsubsection=\count90
+\c@paragraph=\count91
+\c@subparagraph=\count92
+\@hlskip=\skip41
+\verbatimleftmargin=\dimen121
+\verbatimbaselineskip=\dimen122
+\c@figure=\count93
+\c@table=\count94
+\abovecaptionskip=\dimen123
+\belowcaptionskip=\dimen124
+\capwidth=\dimen125
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 2381.
+\abovebibsep=\dimen126
+\@minsofar=\count95
+\@min=\count96
+\@cite@temp=\count97
+\abovebiosep=\dimen127
+\c@profile=\count98
+\mathindent=\dimen128
+) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip42
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen129
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen130
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count99
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count100
+\leftroot@=\count101
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count102
+\DOTSCASE@=\count103
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen131
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count104
+\c@MaxMatrixCols=\count105
+\dotsspace@=\muskip10
+\c@parentequation=\count106
+\dspbrk@lvl=\count107
+\tag@help=\toks17
+\row@=\count108
+\column@=\count109
+\maxfields@=\count110
+\andhelp@=\toks18
+\eqnshift@=\dimen132
+\alignsep@=\dimen133
+\tagshift@=\dimen134
+\tagwidth@=\dimen135
+\totwidth@=\dimen136
+\lineht@=\dimen137
+\@envbody=\toks19
+\multlinegap=\skip43
+\multlinetaggap=\skip44
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/share/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/usr/share/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen138
+\Gin@req@width=\dimen139
+)
+\epsfxsize=\dimen140
+\epsfysize=\dimen141
+)
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 130.
+
+(/usr/share/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(/usr/share/texmf/ptex/platex/base/ascmac.sty
+(/usr/share/texmf/ptex/platex/base/tascmac.sty
+\@savetbaselineshift=\dimen142
+\@saveybaselineshift=\dimen143
+\scb@x=\box49
+\scscb@x=\box50
+\@bw=\dimen144
+\@nbox=\box51
+\@nbody=\box52
+\@scw=\dimen145
+\@itemh=\dimen146
+\@iboxpos=\toks22
+\@iboxstr=\box53
+\@bwsp=\box54
+\@@bwsp=\box55
+\@bcal=\count111
+\shaderule=\dimen147
+)) (./algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count112
+\float@exts=\toks23
+\float@box=\box56
+\@float@everytoks=\toks24
+\@floatcapt=\box57
+)
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks25
+\c@algorithm=\count113
+) (./algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count114
+\c@ALC@line=\count115
+\c@ALC@rem=\count116
+\c@ALC@depth=\count117
+\ALC@tlm=\skip45
+\algorithmicindent=\skip46
+)
+LaTeX Font Info:    External font `min9 at8.8711pt' loaded for size
+(Font)              <9> on input line 31.
+
+
+Class ieej Warning: Author's name "新田　益大" doesn't have a space.
+
+
+Class ieej Warning: check the label "OEH", it does not correspond to 
+  any labels in \authorentry command.
+
+(./sfe.aux)
+\openout1 = `sfe.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 72.
+LaTeX Font Info:    External font `goth9 at8.8711pt' loaded for size
+(Font)              <9> on input line 72.
+LaTeX Font Info:    External font `goth10 at9.6104pt' loaded for size
+(Font)              <10> on input line 78.
+LaTeX Font Info:    External font `min10 at17.742pt' loaded for size
+(Font)              <17.28> on input line 78.
+LaTeX Font Info:    External font `min10 at14.785pt' loaded for size
+(Font)              <14.4> on input line 78.
+LaTeX Font Info:    External font `min7 at7.3926pt' loaded for size
+(Font)              <7> on input line 78.
+LaTeX Font Info:    Try loading font information for U+msa on input line 78.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 78.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    External font `min5 at5.1748pt' loaded for size
+(Font)              <5> on input line 78.
+LaTeX Font Info:    External font `min8 at8.1318pt' loaded for size
+(Font)              <8> on input line 78.
+LaTeX Font Info:    External font `min6 at5.9141pt' loaded for size
+(Font)              <6> on input line 78.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 80.
+LaTeX Font Info:    External font `goth10 at9.6104pt' loaded for size
+(Font)              <10> on input line 80.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 80.
+LaTeX Font Info:    External font `goth10 at11.089pt' loaded for size
+(Font)              <10.95> on input line 80.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9.96017> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 80.
+LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 117.
+LaTeX Font Info:    External font `goth10 at9.6104pt' loaded for size
+(Font)              <10> on input line 117.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 164.
+
+
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 164.
+ [1
+
+
+]
+LaTeX Font Info:    External font `goth7 at7.3926pt' loaded for size
+(Font)              <7> on input line 242.
+LaTeX Font Info:    External font `goth5 at5.1748pt' loaded for size
+(Font)              <5> on input line 242.
+LaTeX Font Info:    External font `goth8 at8.1318pt' loaded for size
+(Font)              <8> on input line 302.
+ [2]
+File: fig/phi2.eps Graphic file (type eps)
+ <fig/phi2.eps>
+File: fig/ddphi2.eps Graphic file (type eps)
+
+<fig/ddphi2.eps>
+File: fig/sim2.eps Graphic file (type eps)
+ <fig/sim2.eps>
+
+Class ieej Warning: Profile's name "新田　益大" doesn't have a space.
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 356.
+LaTeX Font Info:    External font `goth8 at8.1318pt' loaded for size
+(Font)              <8> on input line 356.
+File: a2.eps Graphic file (type eps)
+<a2.eps> [3] (./sfe.aux) )
+(\end occurred when \iffalse on line 35 was incomplete) 
+Here is how much of TeX's memory you used:
+ 2330 strings out of 494089
+ 27497 string characters out of 3159938
+ 99198 words of memory out of 3000000
+ 5679 multiletter control sequences out of 15000+200000
+ 29353 words of font info for 116 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 32i,14n,24p,364b,350s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on sfe.dvi (3 pages, 22204 bytes).

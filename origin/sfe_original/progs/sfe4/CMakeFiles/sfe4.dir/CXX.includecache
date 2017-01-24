@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yuta/デスクトップ/sfe/progs/sfe4/sfe4.cpp
+sfe2.h
+/home/yuta/デスクトップ/sfe/progs/sfe4/sfe2.h
+

@@ -1,0 +1,18 @@
+tex&emacs memo
+
+//tex---pdf出力の流れ//
+
+C-x,s　			[保存]
+C-c,t 			[コンパイル]
+j 　　　　　　　　　　　　　　　　	[なんか出てくる]
+evince test.pdf & 	[pdf表示]
+
+// ~.texをemacsでつくる//
+
+$ mkdir ~/Documents/tex-test
+$ cd ~/Documents/tex-test
+$ emacs test.tex &
+
+[testの部分はファイル名を入れる]
+
+sudo apt-get install latexmk

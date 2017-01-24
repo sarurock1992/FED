@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/opso.dir/main.cpp.o CMakeFiles/opso.dir/opso.cpp.o  -o opso -rdynamic 

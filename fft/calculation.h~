@@ -1,0 +1,17 @@
+#ifndef __CALCULATION_H_INCLUDED__
+#define __CALCULATION_H_INCLUDED__
+
+#define PI 3.1415926535897
+
+#define DFT 1
+#define IDFT -1
+
+
+int power_two(int num);
+
+int fft_ifft(double *re, double *im, int num, int flag);
+
+void fft_swap(double *re, double *im, int num);
+void swap(double *a, double *b);
+
+#endif /* __CALCULATION_H_INCLUDED__ */

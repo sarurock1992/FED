@@ -1,0 +1,25 @@
+set datafile separator ','
+set xrange[0:1]
+#set yrange[-50:50]
+set y2range[-50:50]
+
+set label font "Times New Roman"
+set terminal x11
+set y2tics
+
+set tics nomirror
+
+set xlabel " Time[s] "
+set ylabel "Estimated frequency [Hz] "
+set y2label " Target signal " 
+
+
+
+plot "dfe.dat" u ($1/1000):2 w steps lc rgb "green" t "Target signal" axes x1y2 ,\
+     "dfe.dat" u ($1/1000):3 w steps lc rgb "red" t "FED",\
+     "fft_log.dat" u ($1/1000):2 w steps lc rgb "blue" t "FFT"
+pause -1
+
+set terminal png
+set output 'dfe_fft.png'
+replot

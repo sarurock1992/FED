@@ -1,0 +1,7 @@
+//電気学会論文コンパイル方法//
+
+//ファイルがある場所に移動後、以下をシェルで入力
+
+$ platex -kanji=euc template.tex（ファイル名）
+
+$ dvipdfmx template.dvi（ファイル名）

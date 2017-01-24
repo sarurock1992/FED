@@ -1,0 +1,41 @@
+#set datafile separator ','
+
+#set xrange [0:1]
+#set yrange [0.1:40]
+#set y2range [-500:500]
+#set format x "%2.1f"
+
+set ytics nomirror
+set y2tics 
+set tics font "Times New Roman,28"
+
+set xlabel font 'Times,29'
+set ylabel font 'Times,29'
+set y2label font 'Times,29'
+set xlabel 'Time [s]' offset 0,-3
+set y2label 'Angular Velocity [dps]' offset 3,0
+set ylabel 'Estimated Frequency [rad]' offset -4,0
+
+#set offsets 0,0,2,0
+#set size ratio 0.45 1.6
+
+#set rmargin 15
+#set bmargin -5
+#set lmargin 15
+#set tmargin -5
+
+set key at 0.9,77
+set key spacing 1.7
+set key font 'Times,21'
+set key right top
+
+set style line 1 lw 3 lc 1
+
+#set terminal pdf
+#set output "5"
+#set terminal postscript enhanced eps
+#set output "sinwave.eps"
+
+plot  "check.dat" using ($1/100):2 with steps lc 3 lt 1 lw 1 t "sum1" #,6.75 linestyle 1 t "True Value","check.dat" using ($1/100):3 with steps lt 1 lw 3 t "sum2" axes x1y2
+replot
+q

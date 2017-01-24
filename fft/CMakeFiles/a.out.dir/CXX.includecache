@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ogatayuta/fed/fft/fft.h
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+iostream
+-
+memory.h
+-
+sys/file.h
+-
+malloc.h
+-
+
+/home/ogatayuta/fed/fft/main.cpp
+fft.h
+/home/ogatayuta/fed/fft/fft.h
+

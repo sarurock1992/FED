@@ -1,0 +1,20 @@
+set datafile separator ','
+set xrange [0:300]
+set yrange [0:50]
+set tics font "Times,24"
+set xlabel font 'Times,29'
+set ylabel font 'Times,29'
+set xlabel 'Num of sample' offset 2,-4
+#set ylabel 'Angular velocity [dps]' offset -4,0
+set ylabel 'Estimated Frequency' offset -4,0
+set size 1,1
+unset key
+set style line 1 lw 2 lc 1
+cd 'dfedata'
+plot 6.75 notitle linestyle 1,"10hz_200.dat" using 1:3 with steps lt 1 lw 2
+set terminal postscript enhanced eps
+#set terminal pdf
+set output "10hz200.eps"
+replot
+
+

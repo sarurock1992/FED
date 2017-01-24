@@ -1,0 +1,45 @@
+#粒子群最適化のgifアニメ
+
+set xrange [0:250]
+<<<<<<< fix
+set yrange [0:10]
+set zrange [0:1e+4]
+=======
+<<<<<<< HEAD
+set yrange [0:1]
+set zrange [0:1000000]
+<<<<<<< HEAD
+=======
+=======
+set yrange [0:10]
+set zrange [0:1e+4]
+>>>>>>> fix
+>>>>>>> local
+>>>>>>> fix
+set xlabel font "Times New Roman"
+set terminal x11 
+set xlabel " N "
+set ylabel " sigma "
+set zlabel " value " 
+set nokey
+
+set term gif animate delay 7 optimize
+set output 'PSO.gif'
+
+<<<<<<< HEAD
+do for [i=0:99]{	
+=======
+<<<<<<< fix
+do for [i=0:100]{	
+=======
+<<<<<<< HEAD
+do for [i=0:99]{	
+=======
+do for [i=0:100]{	
+>>>>>>> fix
+>>>>>>> local
+>>>>>>> fix
+splot "check.dat" index i using 1:2:3 w p pt 7 lc rgb "blue",\
+      "check.dat" index i using 4:5:6 w p pt 7 ps 2 lc rgb "red"	
+i=i+1
+}

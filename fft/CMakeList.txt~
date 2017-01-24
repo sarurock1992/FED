@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 2.8)
+ADD_DEFINITIONS(
+  -O0
+  -Wall
+  -std=c++11
+  -lm
+  -lfftw
+  -g
+)
+project( fftw )
+
+add_executable( fftw fftw.c )
+target_link_libraries( fftw )

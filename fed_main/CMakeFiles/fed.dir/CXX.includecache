@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ogatayuta/fed/fed_main/fed.h
+math.h
+-
+stdio.h
+-
+iostream
+-
+stdlib.h
+-
+string.h
+-
+memory.h
+-
+sys/file.h
+-
+
+/home/ogatayuta/fed/fed_main/main.cpp
+fed.h
+/home/ogatayuta/fed/fed_main/fed.h
+

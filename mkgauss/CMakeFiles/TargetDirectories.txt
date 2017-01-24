@@ -1,0 +1,1 @@
+/home/ogatayuta/fed/mkgauss/CMakeFiles/mkgauss.dir

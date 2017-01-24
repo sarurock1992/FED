@@ -1,0 +1,34 @@
+#粒子群最適化のgifアニメ
+
+set xrange [0:100]
+set yrange [0:0.0001]
+set y2range [0:1000]
+
+set xlabel font "Times New Roman, 25"
+set ylabel font "Times New Roman, 25"
+
+set tics font "Times New Roman, 20"
+set terminal x11
+set y2tics
+set ytics nomirror
+set xlabel " k "
+#set nokey
+set size ratio 0.4 1
+
+set ylabel "value"
+
+set y2label "error"
+
+plot "errorcheck.dat" u 1:5 w steps lw 3 lc rgb "forest-green" t "value",\
+     "errorcheck.dat" u 1:2 w steps lw 3 lc rgb "black" t "error[%]"axes x1y2
+
+pause -1 "hit"
+
+set terminal svg
+set output 'OPSO_error.svg'
+replot
+
+# set term png
+# set output "OPSO_check.png"
+# replot
+# set term x11
