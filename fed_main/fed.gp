@@ -1,6 +1,6 @@
 set datafile separator ','
-#set yrange [0:50]
-#set xrange [0:3]
+set yrange [0:100]
+set xrange [60:80]
 #set y2range [-1.5:1.5]
 
 set terminal x11 
@@ -12,10 +12,10 @@ set ylabel " Estimated frequency[Hz] "
 set y2label " Target signal " 
 set nokey
 
-#const = 0
+const = 10
 
-plot "dfe.dat" u ($1/1000):2 w steps lc rgb "forest-green" t " Target signal " axes x1y2,\
-     "dfe.dat" u ($1/1000):3 w steps lc 1 t " Estimated Frequency [Hz] "
+plot "fed.dat" u ($1/1000):2 w steps lc rgb "forest-green" t " Target signal " axes x1y2,\
+     "fed.dat" u ($1/1000):3 w steps lc 1 t " Estimated Frequency [Hz] "
 
 pause -1 "hit"
 

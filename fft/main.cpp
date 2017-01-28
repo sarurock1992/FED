@@ -3,18 +3,19 @@
 int main(void){
 
 	int SIZE,N,j;
-	double Ts,frequency_by_fft;
+	double Ts,frequency_by_fft,z,last_z,a1;
 	FILE *fp,*fd;
 	char buff[1500];
 
+	a1 = 0.8;
 	//omega = 2*M_PI;
 	Ts = 0.001;//[s]
-	SIZE = 10000;
+	SIZE = 20000;
 
 	double signal_data[SIZE],signal_data_for_fft[SIZE];
 
-	fd=fopen("../accdata/o05pi_3pi_02pi_n_1000hz.csv","r");
-	//fd=fopen("../accdata/brain02.csv","r");
+	//fd=fopen("../accdata/o05pi_3pi_02pi_n_1000hz.csv","r");
+	fd=fopen("../accdata/brain004.csv","r");
 	//fd=fopen("../accdata/o3pi_n_1000hz.csv","r");
 
 	if(fd==NULL){
@@ -43,8 +44,13 @@ int main(void){
 			cout << "i = " << i << endl;
 		}
 
+		z = signal_data[i];
+		z = a1*z + (1-a1)*last_z;
+		last_z = z;
+			
 		if (i < N){
-			signal_data_for_fft[i] = signal_data[i];
+			
+			signal_data_for_fft[i] = z;
 		}
 				
 		else if (i==32||i==64||i==128||i==256||i==512||i==1024||i==2048){
@@ -61,6 +67,9 @@ int main(void){
 			signal_data_for_fft[N-1] = signal_data[i];
 		}
 		// cout << fft(N, signal_data, Ts);
+		//frequency_by_fft = fft(N,signal_data_for_fft,Ts);
+		
+	
 		frequency_by_fft = fft(N,signal_data_for_fft,Ts);
 
 		// for (int j=0; j<N; j++){

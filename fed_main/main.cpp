@@ -11,8 +11,8 @@ int main(void){
 	double sig=(1.25+N/(double)16)*Ts*0.5;
 	double sum1=0,sum2=0,check,sig2,sig4;
 
-	N_sma = 20;//単純移動平均するデータ数
-	a = 0.9;//差分方程式の重み
+	N_sma = 40;//単純移動平均するデータ数
+	a = 0.8;//差分方程式の重み
 	sig2=sig*sig;
 	sig4=sig2*sig2;
 	
@@ -37,9 +37,9 @@ int main(void){
 	}
 	
 	//// read data file ////////////////////
-	fd=fopen("../accdata/o05pi_3pi_02pi_n_1000hz.csv","r");
+	//fd=fopen("../accdata/o05pi_3pi_02pi_n_1000hz.csv","r");
 	//fd=fopen("../accdata/o3pi_n_1000hz.csv","r");
-	//fd=fopen("../accdata/brain02.csv","r");
+	fd=fopen("../accdata/brain004.csv","r");
 	
 	if(fd==NULL){
 		fprintf(stderr,"Do not open data file\n");

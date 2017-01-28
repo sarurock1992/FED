@@ -8,7 +8,7 @@
 
 using namespace std;
 
-#define TOTAL 10000
+#define TOTAL 150000
 #define initN 100//最初のN
 #define Ts 0.001
 //#define TOTAL NUM*4 // 1周期分

@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/ogatayuta/fed/fed_main/fed.cpp
+fed.h
+/home/ogatayuta/fed/fed_main/fed.h
+
 /home/ogatayuta/fed/fed_main/fed.h
 math.h
 -
