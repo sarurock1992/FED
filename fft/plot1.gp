@@ -10,14 +10,18 @@ set y2tics
 
 set tics nomirror
 
-set xlabel " time[ms] "
+set xlabel " time[s] "
 set ylabel "Frequency by FFT [Hz] "
-set y2label " Target signal " 
+set y2label " Target signal "
 
-plot "fft_log.dat" u 1:3 w steps lc rgb "green" t "Target signal" axes x1y2,\
-     "fft_log.dat" u 1:2 w steps lc rgb "red" t "Frequency by FFT"     
+#const=0
+const1=10
+
+plot "fft_log.dat" u ($1/100):3 w steps lc rgb "green" t "Target signal" axes x1y2,\
+     "fft_log.dat" u ($1/100):2 w steps lc rgb "red" t "Frequency by FFT",\
+     const1
 pause -1
 
-set terminal png
-set output 'fft.png'
+set terminal eps
+set output 'fft.eps'
 replot

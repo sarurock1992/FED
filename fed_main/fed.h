@@ -8,9 +8,9 @@
 
 using namespace std;
 
-#define TOTAL 150000
+#define TOTAL 1000
 #define initN 100//最初のN
-#define Ts 0.001
+#define Ts 0.01
 //#define TOTAL NUM*4 // 1周期分
 #define TOTAL2 1000//信号データ配列サイズ
 #define MIN_N 20

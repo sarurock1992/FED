@@ -17,5 +17,3 @@ typedef struct{
 int bitr( int bit, int r );
 
 void swap( complex *d0, complex *d1 );
-
-double fft(int N, double *data, double Ts);

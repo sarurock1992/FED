@@ -111,30 +111,6 @@ a.out/fast:
 	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/build
 .PHONY : a.out/fast
 
-fft_function.o: fft_function.cpp.o
-.PHONY : fft_function.o
-
-# target to build an object file
-fft_function.cpp.o:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/fft_function.cpp.o
-.PHONY : fft_function.cpp.o
-
-fft_function.i: fft_function.cpp.i
-.PHONY : fft_function.i
-
-# target to preprocess a source file
-fft_function.cpp.i:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/fft_function.cpp.i
-.PHONY : fft_function.cpp.i
-
-fft_function.s: fft_function.cpp.s
-.PHONY : fft_function.s
-
-# target to generate assembly for a file
-fft_function.cpp.s:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/fft_function.cpp.s
-.PHONY : fft_function.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -168,9 +144,6 @@ help:
 	@echo "... a.out"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... fft_function.o"
-	@echo "... fft_function.i"
-	@echo "... fft_function.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

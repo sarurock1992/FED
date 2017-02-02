@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ogatayuta/fed/fft
 CMakeFiles/a.out.dir/all:
 	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/depend
 	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ogatayuta/fed/fft/CMakeFiles  1 2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ogatayuta/fed/fft/CMakeFiles  1
 	@echo "Built target a.out"
 .PHONY : CMakeFiles/a.out.dir/all
 
@@ -69,7 +69,7 @@ all: CMakeFiles/a.out.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/a.out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ogatayuta/fed/fft/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ogatayuta/fed/fft/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/a.out.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ogatayuta/fed/fft/CMakeFiles 0
 .PHONY : CMakeFiles/a.out.dir/rule

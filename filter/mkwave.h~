@@ -1,0 +1,20 @@
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <random>
+#include "dfe.h"
+
+#define TOTAL 10000
+#define omega 5*M_PI
+#define s_hz 1000
+#define Ts 1/(double)s_hz
+
+//using namespace std;
+
+// int quit_flag = 0;
+int normal();
+
+int noise();
+
+int damp();
+#endif

@@ -49,32 +49,9 @@ include CMakeFiles/a.out.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/a.out.dir/flags.make
 
-CMakeFiles/a.out.dir/fft_function.cpp.o: CMakeFiles/a.out.dir/flags.make
-CMakeFiles/a.out.dir/fft_function.cpp.o: fft_function.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ogatayuta/fed/fft/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.dir/fft_function.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.dir/fft_function.cpp.o -c /home/ogatayuta/fed/fft/fft_function.cpp
-
-CMakeFiles/a.out.dir/fft_function.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.dir/fft_function.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ogatayuta/fed/fft/fft_function.cpp > CMakeFiles/a.out.dir/fft_function.cpp.i
-
-CMakeFiles/a.out.dir/fft_function.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.dir/fft_function.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ogatayuta/fed/fft/fft_function.cpp -o CMakeFiles/a.out.dir/fft_function.cpp.s
-
-CMakeFiles/a.out.dir/fft_function.cpp.o.requires:
-.PHONY : CMakeFiles/a.out.dir/fft_function.cpp.o.requires
-
-CMakeFiles/a.out.dir/fft_function.cpp.o.provides: CMakeFiles/a.out.dir/fft_function.cpp.o.requires
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/fft_function.cpp.o.provides.build
-.PHONY : CMakeFiles/a.out.dir/fft_function.cpp.o.provides
-
-CMakeFiles/a.out.dir/fft_function.cpp.o.provides.build: CMakeFiles/a.out.dir/fft_function.cpp.o
-
 CMakeFiles/a.out.dir/main.cpp.o: CMakeFiles/a.out.dir/flags.make
 CMakeFiles/a.out.dir/main.cpp.o: main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ogatayuta/fed/fft/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ogatayuta/fed/fft/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.dir/main.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.dir/main.cpp.o -c /home/ogatayuta/fed/fft/main.cpp
 
@@ -97,13 +74,11 @@ CMakeFiles/a.out.dir/main.cpp.o.provides.build: CMakeFiles/a.out.dir/main.cpp.o
 
 # Object files for target a.out
 a_out_OBJECTS = \
-"CMakeFiles/a.out.dir/fft_function.cpp.o" \
 "CMakeFiles/a.out.dir/main.cpp.o"
 
 # External object files for target a.out
 a_out_EXTERNAL_OBJECTS =
 
-a.out: CMakeFiles/a.out.dir/fft_function.cpp.o
 a.out: CMakeFiles/a.out.dir/main.cpp.o
 a.out: CMakeFiles/a.out.dir/build.make
 a.out: CMakeFiles/a.out.dir/link.txt
@@ -114,7 +89,6 @@ a.out: CMakeFiles/a.out.dir/link.txt
 CMakeFiles/a.out.dir/build: a.out
 .PHONY : CMakeFiles/a.out.dir/build
 
-CMakeFiles/a.out.dir/requires: CMakeFiles/a.out.dir/fft_function.cpp.o.requires
 CMakeFiles/a.out.dir/requires: CMakeFiles/a.out.dir/main.cpp.o.requires
 .PHONY : CMakeFiles/a.out.dir/requires
 

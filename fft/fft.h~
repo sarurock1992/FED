@@ -18,4 +18,4 @@ int bitr( int bit, int r );
 
 void swap( complex *d0, complex *d1 );
 
-void fft(int N, double *data, double Ts);
+double fft(int N, double *data, double Ts);

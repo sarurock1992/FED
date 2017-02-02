@@ -7,5 +7,5 @@ ADD_DEFINITIONS(
 )
 project( a.out )
 
-add_executable( a.out fft.h fft_function.cpp main.cpp )
+add_executable( a.out fft.h main.cpp )
 target_link_libraries( a.out )

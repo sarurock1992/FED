@@ -1,5 +1,4 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/a.out.dir/fft_function.cpp.o"
   "CMakeFiles/a.out.dir/main.cpp.o"
   "a.out.pdb"
   "a.out"
